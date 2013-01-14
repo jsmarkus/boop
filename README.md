@@ -108,3 +108,14 @@ var Quux = Boop.extend({
 });
 (new Quux).croak(); //-> 'a'
 ```
+
+## Testing
+
+Clone this repo, then install `devDependencies`, then test with `mocha`:
+
+```
+git clone https://github.com/jsmarkus/boop.git
+cd boop
+npm install -d
+make test
+```
