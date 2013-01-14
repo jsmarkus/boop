@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Boop = require('../index');
+var Boop = require('..');
 
 
 describe('Boop', function() {
